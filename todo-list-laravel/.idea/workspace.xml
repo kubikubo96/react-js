@@ -13,6 +13,9 @@
       <executable />
     </execution>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="PhpServers">
     <servers>
       <server host="todolistlaravel.local" id="a59c6467-dd88-4ed6-a5b5-99524a534fba" name="todolistlaravel.local" />
@@ -129,8 +132,9 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../todo-list-2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -164,9 +168,10 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1906" y="142" width="424" height="491" key="FileChooserDialogImpl" timestamp="1594555777223">
-      <screen x="1440" y="0" width="1366" height="768" />
+    <state x="1857" y="166" width="424" height="491" key="FileChooserDialogImpl" timestamp="1595132704868">
+      <screen x="1366" y="0" width="1440" height="900" />
     </state>
+    <state x="1857" y="166" key="FileChooserDialogImpl/1366.0.1440.900/50.27.1316.741@1366.0.1440.900" timestamp="1595132704868" />
     <state x="1906" y="142" width="424" height="491" key="FileChooserDialogImpl/50.27.1390.873/1440.0.1366.768@1440.0.1366.768" timestamp="1594555777223" />
     <state width="1320" height="226" key="GridCell.Tab.0.bottom" timestamp="1594540559468">
       <screen x="1440" y="0" width="1366" height="768" />
