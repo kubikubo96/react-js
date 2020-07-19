@@ -3,11 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="407525c7-c6d5-4d42-9ec4-902d180804ab" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/js/TodoList.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/TodoList.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/components/routes/BaseRoute.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/routes/BaseRoute.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/mocks/tasks.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/mocks/tasks.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -147,6 +147,9 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/resources/js/components/routes" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/resources/js/components" />
       <recent name="$PROJECT_DIR$/resources/js" />
@@ -171,7 +174,7 @@
       <updated>1594531106260</updated>
       <workItem from="1594531112462" duration="7510000" />
       <workItem from="1594555759948" duration="19000" />
-      <workItem from="1595132651122" duration="1486000" />
+      <workItem from="1595132651122" duration="8137000" />
     </task>
     <servers />
   </component>
@@ -241,6 +244,10 @@
       <screen x="1440" y="0" width="1366" height="768" />
     </state>
     <state x="1689" y="89" width="868" height="590" key="find.popup/50.27.1390.873/1440.0.1366.768@1440.0.1366.768" timestamp="1594535046779" />
+    <state x="1787" y="167" key="run.anything.popup" timestamp="1595138764510">
+      <screen x="1366" y="0" width="1440" height="900" />
+    </state>
+    <state x="1787" y="167" key="run.anything.popup/1366.0.1440.900/50.27.1316.741@1366.0.1440.900" timestamp="1595138764510" />
     <state x="1786" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1594535959833">
       <screen x="1440" y="0" width="1366" height="768" />
     </state>
