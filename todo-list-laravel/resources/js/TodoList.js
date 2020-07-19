@@ -3,7 +3,9 @@ import Title from "./components/Title";
 import Control from "./components/Control";
 import Form from "./components/Form";
 import List from "./components/List";
+import BaseRoute from './components/routes/BaseRoute';
 import tasks from "./mocks/tasks";
+
 import {filter, includes, orderBy as funOrderBy, remove, reject} from 'lodash';
 
 const {v4: uuidv4} = require('uuid');
@@ -131,7 +133,7 @@ class TodoList extends Component {
     }
 
     render() {
-        const { error, isLoaded} = this.state;
+        const {error, isLoaded} = this.state;
 
         if (error) {
             return <div>Error: {error.message}</div>;
@@ -167,12 +169,14 @@ class TodoList extends Component {
 
             if (isShowForm) {
                 elmForm =
-                    <Form itemSelected={itemSelected} onClickSubmit={this.handleSubmit} onClickCalcel={this.closeForm}/>;
+                    <Form itemSelected={itemSelected} onClickSubmit={this.handleSubmit}
+                          onClickCalcel={this.closeForm}/>;
             }
 
             return (
-                <div className="row">
 
+                <div className="row">
+                    <BaseRoute/>
                     <Title/>
 
                     <Control
