@@ -4,7 +4,8 @@ import Control from "./components/Control";
 import Form from "./components/Form";
 import List from "./components/List";
 import BaseRoute from './components/routes/BaseRoute';
-import tasks from "./mocks/tasks";
+import axios from 'axios';
+// import tasks from "./mocks/tasks";
 
 import {filter, includes, orderBy as funOrderBy, remove, reject} from 'lodash';
 
@@ -37,22 +38,23 @@ class TodoList extends Component {
     }
 
     componentDidMount() {
-        fetch("tasks")
-            .then(res => res.json())
-            .then(
-                (result) => {
-                    this.setState({
-                        isLoaded: true,
-                        items: result
-                    });
-                },
-                (error) => {
-                    this.setState({
-                        isLoaded: true,
-                        error
-                    });
-                }
-            )
+        axios({
+            method: 'get',
+            url: 'tasks',
+            data: null
+        }).then(res => {
+            console.log(res);
+            this.setState({
+                isLoaded: true,
+                items: res.data
+            });
+        }).catch(err => {
+            this.setState({
+                isLoaded: true,
+                err
+            });
+        })
+
     }
 
     handleToogleForm() {
@@ -138,7 +140,7 @@ class TodoList extends Component {
         if (error) {
             return <div>Error: {error.message}</div>;
         } else if (!isLoaded) {
-            return <div>Loading...</div>;
+            return <div><h1>Loading...</h1></div>;
         } else {
             let itemsOrigin = [...this.state.items]; //copy this.state.items to itemsOrigin
             let items = [];
